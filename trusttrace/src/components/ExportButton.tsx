@@ -19,7 +19,7 @@ export const ExportButton: React.FC = () => {
       } transition-colors`}
     >
       <DownloadIcon size={18} />
-      <span className="text-sm font-medium">Export to CSV</span>
+      <span className="text-xs md:text-sm font-medium">Export to CSV</span>
     </motion.button>
   );
 };

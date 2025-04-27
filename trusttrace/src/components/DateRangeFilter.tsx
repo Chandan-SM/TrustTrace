@@ -27,7 +27,7 @@ export const DateRangeFilter: React.FC = () => {
         } transition-colors`}
       >
         <CalendarIcon size={18} />
-        <span className="text-sm font-medium">{"Filter by Date"}</span>
+        <span className="text-xs md:text-sm font-medium">{"Filter by Date"}</span>
         {(dateRange.startDate || dateRange.endDate) && (
           <XIcon
             size={16}
