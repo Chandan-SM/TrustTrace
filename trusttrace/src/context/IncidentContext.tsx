@@ -176,7 +176,10 @@ export const IncidentProvider: React.FC<{ children: React.ReactNode }> = ({
 
       const csvContent = [
         headers.join(","),
-        ...filteredIncidents.map((incident) => {
+        ...filteredIncidents
+        .slice()
+        .reverse()
+        .map((incident) => {
           const reportedDate = new Date(
             incident.reported_at
           ).toLocaleDateString("en-US");
