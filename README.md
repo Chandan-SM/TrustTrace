@@ -2,7 +2,7 @@
 
 ## Overview
 
-A responsive web application for monitoring, reporting, and tracking AI safety incidents. This dashboard was built as part of a technical assignment for HumanChain, a deep-tech software AI startup focused on building safer and more trustworthy AI systems.
+A responsive web application for monitoring, reporting, and tracking AI safety incidents. This dashboard was built as part of a technical assignment for SPARKLEHOOD.
 
 ![AI Safety Incident Dashboard](https://res.cloudinary.com/dsktf7dac/image/upload/v1745769551/Screenshot_2025-04-27_at_9.28.20_PM_haodxv.png)
 
